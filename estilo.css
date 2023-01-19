@@ -1,0 +1,116 @@
+*{
+    font-family: 'Sofia Sans', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+  margin: 0%;
+}
+h1{
+    margin: 0;
+    color: white;
+    font-size: 40px;
+}
+.nav{
+    box-shadow: 2px 11px 32px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 11px 32px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 11px 32px 2px rgba(0,0,0,0.75);
+    height: 60px;
+    text-align: center;
+    background-color: black;
+}
+.contenido{
+    font-size: 20px;                
+    box-shadow: -1px 2px 44px 10px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 2px 44px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 44px 10px rgba(0,0,0,0.75);
+margin: 0 5% 0 5%;
+padding: 20px 2% 20px 2%;
+}
+.contenido a {
+    color: black;
+}
+.replica{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.replica p{
+    font-size: 20px;
+}
+.replica h2{
+    font-size: 30px;
+}
+.replica i{
+    font-size: 60px;
+}
+
+.replica a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    transition: .5s;
+    border-radius: 10px;
+}
+.replica a:hover{
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+}
+.footer{
+    background-color: black;
+    height: 200px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer p{
+    margin-top: 50px;
+    color: white;
+}
+.footer a {
+    color: white;
+}
+.titulo i{
+    font-size: 100px;
+}
+.titulo{
+    margin-left: 5%;
+    font-size: 40px;
+}
+.titulo h2{
+    border-left: 10px solid black;
+}
+.indice h3{
+    margin-left: 3%;
+}
+.indice{
+    border-left: 10px solid black;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-bottom: 100px;
+}
+.indice li{
+    margin-top: 15px;
+}
+.indice a{
+    color: black;
+    text-decoration: none;
+    transition: .5s;
+    padding: 5px;
+    border-radius: 5px;
+}
+.indice a:hover{
+    background-color: black;
+    color: white;
+}
+.contexto{
+    display: block;
+    background-color: black;
+    text-align: center;
+}
+.contexto p{
+    color: white;
+}
